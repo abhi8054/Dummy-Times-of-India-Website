@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Tapestry&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.head-container{
+
+    background-color: black;
+    color: white;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+    padding: 0.6rem;
+    border-bottom: 1px solid rgb(181, 0, 0);
+}
+.btn{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.left-part .select{
+    background-color: black;
+    color: white;
+    border: 0;
+}
+.left-part .select option{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+.right-part{
+    display: flex;
+    gap: 1rem;
+}
+.right-part span{
+    cursor: pointer;
+}
+.the-times-of-india{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem 1.5rem 1rem;
+}
+.the-times-of-india h1{
+    /* font-family: 'Tapestry', cursive; */
+    font-family: 'Playfair Display', serif;
+    font-family: 'Tapestry', cursive;
+}
+
+#celcius{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#gt{
+    font-weight: bold;
+    cursor: pointer;
+}
+.the-times-of-india p{
+   display: flex;
+   align-items: center;
+   gap:5px
+}
+.the-times-of-india h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/* This is nav containe */
+
+.nav-container{
+    color: white;
+    background-color: rgb(181, 0, 0);
+}
+.nav-container nav{
+    margin: 0 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ulnav{
+    list-style-type:none ;
+    display: flex;
+    gap:0.5rem;
+}
+.ulnav li a:hover{
+    color: black;
+
+}
+#active1{
+    background-color: white;
+}
+#active2{
+    color: black;
+}
+.ulnav li:hover{
+    background-color: white;
+}
+.ulnav li{
+    padding: 5px 0;
+    color: white;
+}
+.ulnav li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    height: 100%;
+    padding: 5px;
+    font-weight: 500;
+} 
+.search{
+    cursor: pointer;
+}
+
+/* This is body containe */
+.body-container{
+    margin: 0 10rem;
+}
+.body-container #p{
+    font-size: 12px;
+    margin:7px 0;
+}
+.body-container h1{
+    padding: 10px 0 5px 0;
+    border-bottom: 2px solid black;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content .left{
+    width: 63%;
+}
+
+.content-box{
+    display: flex;
+    padding: 1rem 0;
+    gap:1rem;
+    border-bottom: 1px solid rgb(72, 72, 72);
+}
+.content-box a h3{
+    margin-bottom: 12px;
+    color: black;
+}
+.content-box p{
+    font-size: 0.8rem;
+}
+.content-box a{
+    text-decoration: none;
+}
+.pagination{
+    text-align: center;
+    padding: 2.5rem;
+}
+.pagination span{
+    padding: 0.4rem;
+    margin: 0;
+    border: 1px solid black;
+    background-color: rgba(128, 128, 128, 0.092);
+    cursor: pointer;
+}
+
+.content .right{
+    /* background-color:pink; */
+    width: 35%;
+    font-size: 0.8rem;
+    /* height: 3rem; */
+    
+}
+.most-popular h2{
+    margin: 1rem 0 0.5rem 0;
+}
+.p-nav{
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+    border-bottom: 5px solid black;
+}
+
+.p-nav li{
+    padding: 0.6rem;
+    font-size: 1rem;
+    background-color: rgba(128, 128, 128, 0.468);
+    /* border: 1px solid white; */
+    font-weight: bold;
+}
+
+#select,.p-nav li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.most-popular .data{
+    padding: 1rem 0;
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+}
+.business h2{
+    margin: 1rem 0 0.5rem 0;
+    padding: 3px 0;
+    border-bottom: 2px solid black;
+}
+.business .business-data{
+    display: flex;
+    padding: 1rem 0;
+    gap:1rem;
+    border-bottom: 1px solid rgb(72, 72, 72);
+}
+.business .business-data p{
+    font-size: 1rem;
+    cursor: pointer;
+}
+.sports h2{
+    margin: 1rem 0 0.5rem 0;
+    padding: 3px 0;
+    border-bottom: 2px solid black;
+}
+.sports .sports-data{
+    display: flex;
+    padding: 1rem 0;
+    gap:1rem;
+    border-bottom: 1px solid rgb(72, 72, 72);
+}
+.sports .sports-data p{
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* footer part */
+.footer-container{
+    border-top:2px solid rgb(181, 0, 0);
+    background-color: black;
+    color: white;
+
+}
+.margin{
+    display: flex;
+    margin: 0 3rem;
+}
+.footer-container .margin .left-foot{
+    width: 50%;
+}
+.footer-container .margin .right-foot{
+    /* background-color: blueviolet; */
+    width: 50%;
+}
+.footer-container .margin .left-foot .row .parent{
+    display: flex;
+    font-size: 0.7rem;
+}
+.footer-container .margin .left-foot .row h5{
+    margin: 1rem 0;
+}
+.footer-container .margin .left-foot .row .parent .col{
+    width: 33.33%;
+    /* border:1px solid rebeccapurple; */
+}
+.footer-container .margin .left-foot .row .parent .col ul li{
+    list-style-type: none;
+    padding: 3px 0;
+}
+.footer-container .margin .left-foot .row .parent .col ul li:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+.footer-container .margin .right-foot .row .parent{
+    display: flex;
+    font-size: 0.7rem;
+}
+.footer-container .margin .right-foot .row .parent .col{
+    width: 33.33%;
+    /* border:1px solid rebeccapurple; */
+}
+.footer-container .margin .right-foot .row .parent .col ul li{
+    list-style-type: none;
+    padding: 3px 0;
+}
+.footer-container .margin .right-foot .row h5{
+    margin: 1rem 0;
+}
+
+.footer-container .margin .right-foot .row .parent .col ul li:hover{
+    color: grey;
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.copyright p{
+    margin: 2rem;
+    font-size: 0.8rem;
+}
+.copyright p span a{
+    text-decoration: none;
+    color: grey;
+}
+@media only screen and (max-width: 1149px){
+    .ulnav li a{
+        padding: 0.2rem;
+    }
+}
+@media only screen and (max-width: 916px) {
+    .nav-container nav{
+        margin: 0;
+    } 
+    .ulnav li a{
+        padding: 2px;
+    }
+    .body-container{
+        margin: 0;
+    }
+    .p-nav li{
+        padding: 3px;
+    }
+}
+@media only screen and (max-width: 779px){
+    .p-nav{
+        display: none;
+    }
+}
+@media only screen and (max-width: 516px){
+    .the-times-of-india h1{
+        font-size: 2rem;
+    }
+    .upper{
+        margin: 0;
+    }
+    .footer-container .margin .left-foot{
+        width: 100%;
+    }
+    .footer-container .margin .right-foot{
+        width: 100%;
+    }
+    .margin{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+   
+}
